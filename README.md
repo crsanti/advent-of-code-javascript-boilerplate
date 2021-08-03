@@ -32,7 +32,7 @@ npm start day7
 
 ## How to add days
 
-Just create a module in `./src/day[number]/day[number].js` that exports two functions:
+Just create a module in `./src/day<number>/day<number>.js` that exports two functions:
 
 ```js
 exports.run1 = () => {
@@ -44,8 +44,8 @@ exports.run2 = () => {
 }
 ```
 
-You may want to also add `./src/day[number]/day[number].md` with the description.
+You may want to also add `./src/day<number>/day<number>.md` with the description.
 
 ---
 
-Happy coding~!
+Happy coding~🎄!
