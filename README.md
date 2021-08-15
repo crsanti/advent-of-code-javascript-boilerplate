@@ -1,51 +1,22 @@
-# Advent Of Code
+# Advent of Code JavaScript Starter
 
-This is a boilerplate to solve [Advent Of Code](https://adventofcode.com) exercises using JavaScript.
+A batteries included starter pack for participating in [Advent of Code](https://www.adventofcode.com) using JavaScript!
 
-## How to use it
+## Usage
 
-In order to run a specific day and part just use:
+There are 50 modules, 25 tests and 25 npm scripts along with input files. All files are ready to be implemented with their statements.
 
-```bash
-npm start day<number> [part]
-```
+For example, to go with Day 01:
 
-Examples:
+1. Write your implementation using TDD.
 
-To run day 5, part 2:
+   ```bash
+   $ npm run test:watch -- day01/part1
+   ```
 
-```bash
-npm start day5 2
-```
-
-To run day 7, part 1:
-
-```bash
-npm start day7 1
-```
-
-or
-
-```bash
-npm start day7
-```
-
-## How to add days
-
-Just create a module in `./src/day<number>/day<number>.js` that exports two functions:
-
-```js
-exports.run1 = () => {
-  // Code to solve Part One
-}
-
-exports.run2 = () => {
-  // Code to solve Part Two
-}
-```
-
-You may want to also add `./src/day<number>/day<number>.md` with the description.
-
----
-
-Happy coding~🎄!
+2. When you're ready fill in the `src/day01/input` file with your input.
+3. Run the npm script to solve the exercise.
+   ```bash
+   $ npm run day01.p1
+   ```
+4. Submit the solution to [Advent Of Code](https://www.adventofcode.com).
