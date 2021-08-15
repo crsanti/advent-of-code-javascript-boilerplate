@@ -1,6 +1,6 @@
-const solver = require("./index")
+const solver = require("./part2")
 
-xdescribe("Day 01 > part 2", () => {
+describe.skip("Day 01 > part 2", () => {
   const cases = [
     [")", 1],
     ["()())", 5],
