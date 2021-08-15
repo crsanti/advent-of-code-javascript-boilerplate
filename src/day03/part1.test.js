@@ -1,6 +1,6 @@
 const solver = require("./part1")
 
-describe("Day 03 > part 1", () => {
+describe.skip("Day 03 > part 1", () => {
   const cases = [
     [">", 2],
     ["^>v<", 4],
