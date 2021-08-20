@@ -23,6 +23,8 @@
     "day08.p2": "node ./src/runner.js ./day08/part2.js",
     "day09.p1": "node ./src/runner.js ./day09/part1.js",
     "day09.p2": "node ./src/runner.js ./day09/part2.js",
+    "day10.p1": "node ./src/runner.js ./day10/part1.js",
+    "day10.p2": "node ./src/runner.js ./day10/part2.js",
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch"
   },
