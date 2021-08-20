@@ -1,6 +1,6 @@
 const solver = require("./part2")
 
-describe.skip("Day 07 > part 2", () => {
+describe.skip("Day 09 > part 2", () => {
   test("'a' should have 1968", () => {
     const input = [
       ["123 -> b"],
